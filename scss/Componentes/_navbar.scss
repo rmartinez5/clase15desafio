@@ -13,3 +13,11 @@ header{
     margin-bottom: 50px;
 }
 
+.container{
+    background-color: $color5;
+    &-hijo{
+        @extend .container;
+        // fusionar esta clase con la de nombre container
+        color: $color1;
+    }
+}
