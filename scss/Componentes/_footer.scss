@@ -1,0 +1,18 @@
+@import "./colores","./mixin";
+
+.div-footer{
+    margin-top: 50px;
+    @include flex(row, space-evenly, none);
+    div{
+        background-color: $color5;
+        box-shadow: $color4 3px 2px 12px;
+        border: none;
+        color: $color3;
+    }
+}
+
+.iconos{
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}

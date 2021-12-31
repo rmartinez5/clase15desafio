@@ -1,0 +1,15 @@
+@import "./colores";
+
+header{
+    nav{
+        div{
+            background-color: $color5 !important;
+            box-shadow: $color4 3px 2px 12px;
+            a{
+                color: $color3 !important;
+            }
+        }
+    }
+    margin-bottom: 50px;
+}
+
