@@ -1,0 +1,10 @@
+@import "./colores";
+
+$arrColor: ($color1, $color2, $color3);
+
+// bucle recorre el array haciendo círculo
+@each $style in $arrColor {
+    .color-#{$style}{
+        color: $style;
+    }
+}
